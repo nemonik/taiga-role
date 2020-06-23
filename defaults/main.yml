@@ -1,0 +1,4 @@
+---
+# defaults file for taiga
+taiga_port: 80 
+taiga_version: 5.0.14-stable

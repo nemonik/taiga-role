@@ -1,0 +1,9 @@
+galaxy_info:
+  author: Michael Joseph Walsh <walsh@nemonik.com>
+  description: Ansible role to configure Taiga
+  license: 3-Clause BSD License
+  min_ansible_version: 2.4
+  galaxy_tags:
+  - gitlab
+
+dependencies: []
