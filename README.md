@@ -48,7 +48,7 @@ The above Ansible playbook uses my
 - [Docker Registry role](https://github.com/nemonik/docker-registry-role) to install a private Docker registry
 - [K3s-server role](https://github.com/nemonik/k3s-server-role) to install Lightweight Kubernetes (K3s)
 - [metallb role](https://github.com/nemonik/metallb-role) to install MetalLB
-- [This role](https://github.com/nemonik/taiga-role) to install GitLab
+- [This role](https://github.com/nemonik/taiga-role) to install Taiga
 
 For more information and to see this role put into action checkout my [Hands-on DevOps class](https://github.com/nemonik/hands-on-DevOps) project.
 
