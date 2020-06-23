@@ -48,7 +48,7 @@ spec:
     spec:
       containers:
       - name: postgresql
-        image: {{ registry_host }}:{{ registry_port }}/sameersbn/postgresql:10-2
+        image: sameersbn/postgresql:10-2
         imagePullPolicy: IfNotPresent
         env:
         - name: DB_NAME
@@ -154,7 +154,7 @@ spec:
     spec:
       containers:
       - name: taiga
-        image: {{ registry_host }}:{{ registry_port }}/nemonik/taiga:{{ taiga_version }}
+        image: nemonik/taiga:{{ taiga_version }}
         imagePullPolicy: IfNotPresent
         env:
         - name: DEBUG
