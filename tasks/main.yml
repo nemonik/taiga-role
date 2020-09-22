@@ -14,10 +14,10 @@
       - { repository: "sameersbn/postgresql", tag: "10-2" }
       - { repository: "nemonik/taiga", tag: "latest" }
 
-- name: copy taiga files to /home/{{ ansible_user_id }}/taiga
-  copy:
-    src: files/
-    dest: /home/{{ ansible_user_id }}/taiga
+- name: create /home/{{ ansible_user_id }}/taiga
+  file:
+    path: /home/{{ ansible_user_id }}/taiga
+    state: directory
   tags:
     - taiga
 
